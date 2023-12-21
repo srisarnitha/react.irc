@@ -1,0 +1,86 @@
+
+
+
+body {
+    font-family: Arial, sans-serif;
+   
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(./flyh.jpg);
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    display: flex;
+   
+  
+}
+
+
+.form-container {
+width: 100%;
+max-width: 300px;
+background-image:transparent;
+margin: 0 auto;
+padding: 20px;
+width:350px;
+box-shadow: 0 0 10px rgba(107, 15, 87, 0.377);
+border-radius: 40px;
+
+}
+
+/* Input Fields */
+.input-field {
+margin-bottom: 20px;
+width: 80%;
+margin-left: 30px;
+text-align: center;
+justify-content: center;
+align-items: center;
+}
+input[type="text"], input[type="email"], input[type="password"] {
+text-align: center;
+border-radius: 20px;
+width: 90%;
+}
+
+
+.input-field label {
+display: block;
+margin-bottom: 5px;
+}
+
+
+.input-field input {
+width: 100%;
+padding: 5px;
+border: 1px solid #ccc;
+border-radius: 20px;
+
+   
+
+}
+
+.input-field button {
+width: 100%;
+padding: 10px;
+background-color: #007BFF;
+color: white;
+border: none;
+border-radius: 20px;
+cursor: pointer;
+}
+
+.input-field button:hover {
+background-color:rgb(195, 228, 10);
+}
+
+button{
+padding: 14px 20px;
+border-radius: 20px;
+color: white;
+background-color:#00428c;
+}
+button:hover
+{
+    background-color:rgb(199, 192, 192);
+}
